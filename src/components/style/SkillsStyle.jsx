@@ -1,10 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  /* background-color: ${({ theme }) => theme.bg_light + 50}; */
-
-  border: 1px solid red;
-
   background-color: hsla(270, 22%, 7%, 1);
   background-image: radial-gradient(
       at 74% 70%,
@@ -32,7 +28,6 @@ export const Wrapper = styled.div`
   justify-content: center;
   align-items: start;
   transition: all 0.3s ease;
-  border: 1px solid blue;
 
   @media (max-width: 991.95px) {
     align-items: center;
@@ -91,10 +86,8 @@ export const SkillsContainer = styled.div`
   align-items: center;
   gap: 20px;
   width: 100%;
+  padding: 0 12px;
   transition: all 0.3s ease;
-
-  border: 1px solid green;
-
   margin-top: 50px;
 
   @media (max-width: 768px) {

@@ -2,14 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   padding: 100px 50px 90px 50px;
-
-  @media (max-width: 768px) {
-    align-items: center;
-    padding: 30px 25px;
-  }
-
-  /* background-color: ${({ theme }) => theme.card}; */
-
   background-color: hsla(264, 14%, 10%, 1);
   background-image: radial-gradient(
       at 5% 51%,
@@ -17,6 +9,15 @@ export const Container = styled.div`
       transparent 50%
     ),
     radial-gradient(at 86% 82%, hsla(240, 98%, 36%, 0.17) 0px, transparent 50%);
+
+  @media (max-width: 768px) {
+    align-items: center;
+    padding: 30px 25px;
+  }
+
+  @media (max-width: 576px) {
+    padding: 20px 40px;
+  }
 `;
 
 export const Wrapper = styled.div`

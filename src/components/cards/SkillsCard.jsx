@@ -23,7 +23,10 @@ const CardWrapper = styled.div`
   height: 100%;
 
   @media (max-width: 768px) {
+    gap: 20px; //edit
+    padding: 10px 10px; //edit
     align-items: center;
+    justify-content: center;
   }
 `;
 
@@ -60,6 +63,7 @@ const SkillsList = styled.div`
 
   @media (max-width: 576px) {
     margin-top: 10px;
+    gap: 20px;
     transition: all 0.3s ease;
   }
 `;
@@ -81,7 +85,7 @@ const ListItems = styled.div`
 
   @media (max-width: 768px) {
     font-size: 14px;
-    padding: 8px 20px;
+    padding: 0px 0px; //edit
     transition: all 0.3s ease;
   }
 `;
